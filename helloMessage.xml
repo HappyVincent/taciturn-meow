@@ -3,6 +3,7 @@
 "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
 	<bean id="helloWorld" class="com.jike.spring.chapter01.HelloWorld"></bean>
+	<bean id="helloWorld2" class="com.jike.spring.chapter01.HelloWorld2"></bean>
 	<bean id="helloChina" class="com.jike.spring.chapter01.HelloChina"></bean>
 	<bean id="person" class="com.jike.spring.chapter01.Person">
 	    <property name="helloMessage" ref="helloChina"/>
