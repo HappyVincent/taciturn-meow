@@ -6,5 +6,4 @@ public class HelloWorld implements IHelloMessage {
 	public String sayHello() {
 		return "Hello World!";
 	}
-
 }
